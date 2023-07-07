@@ -2,7 +2,7 @@ package com.example.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.Entity.Freeze;
+import com.example.entity.Freeze;
 import com.example.mapper.FreezeMapper;
 import com.example.service.FreezeService;
 import org.springframework.beans.factory.annotation.Autowired;

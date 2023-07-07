@@ -1,7 +1,7 @@
 package com.example.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.Entity.Report;
+import com.example.entity.Report;
 
 import java.util.List;
 import java.util.Map;

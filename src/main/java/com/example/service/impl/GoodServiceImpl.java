@@ -2,7 +2,7 @@ package com.example.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.Entity.Good;
+import com.example.entity.Good;
 import com.example.mapper.GoodMapper;
 import com.example.service.GoodService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ public class GoodServiceImpl extends ServiceImpl<GoodMapper,Good> implements Goo
     @Override
     public Good queryById(Long id)
     {
-        LambdaQueryWrapper<com.example.Entity.Good> lqw1=new LambdaQueryWrapper<Good>();
+        LambdaQueryWrapper<com.example.entity.Good> lqw1=new LambdaQueryWrapper<Good>();
         lqw1.eq(Good::getId,id);
         Good good=goodMapper.selectOne(lqw1);
         return good;

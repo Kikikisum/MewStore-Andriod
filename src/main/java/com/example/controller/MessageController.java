@@ -1,8 +1,8 @@
-package com.example.Controller;
+package com.example.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.example.Entity.Message;
+import com.example.entity.Message;
 import com.example.service.MessageService;
 import com.example.utils.DecodeJwtUtils;
 import org.springframework.stereotype.Controller;

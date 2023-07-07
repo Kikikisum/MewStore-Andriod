@@ -1,4 +1,4 @@
-package com.example.Entity;
+package com.example.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
@@ -10,10 +10,8 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-@TableName(value = "freeze")
-public class Freeze {
+@TableName(value = "favorite")
+public class Favorite {
     private Long user_id;
-    private Long order_id;
-    private String reason;
-    private int status;
+    private Long good_id;
 }

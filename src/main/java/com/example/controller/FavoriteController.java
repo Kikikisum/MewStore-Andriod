@@ -1,8 +1,8 @@
-package com.example.Controller;
+package com.example.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.example.Entity.*;
-import com.example.Entity.Favorite;
+import com.example.entity.*;
+import com.example.entity.Favorite;
 import com.example.service.FavoriteService;
 import com.example.service.GoodService;
 import com.example.service.UserService;

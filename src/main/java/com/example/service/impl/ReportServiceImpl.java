@@ -2,7 +2,7 @@ package com.example.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.Entity.Report;
+import com.example.entity.Report;
 import com.example.mapper.ReportMapper;
 import com.example.service.ReportService;
 import org.springframework.beans.factory.annotation.Autowired;

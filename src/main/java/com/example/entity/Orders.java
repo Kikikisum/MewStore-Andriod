@@ -1,4 +1,4 @@
-package com.example.Entity;
+package com.example.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.math.BigDecimal;
-import java.sql.Timestamp;
 
 
 @Data

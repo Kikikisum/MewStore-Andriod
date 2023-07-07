@@ -1,6 +1,6 @@
 package com.example.service.impl;
 
-import com.example.Entity.User;
+import com.example.entity.User;
 import com.example.service.UserService;
 import com.example.utils.DecodeJwtUtils;
 import lombok.extern.slf4j.Slf4j;

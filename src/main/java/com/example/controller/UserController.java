@@ -1,7 +1,7 @@
-package com.example.Controller;
+package com.example.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.example.Entity.*;
+import com.example.entity.*;
 import com.example.service.*;
 import com.example.service.impl.WebSocketServer;
 import com.example.utils.DecodeJwtUtils;

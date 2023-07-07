@@ -2,10 +2,10 @@ package com.example.Controller;
 
 import com.alibaba.fastjson.JSON;
 import com.example.Entity.*;
-import com.example.Service.*;
-import com.example.Service.Impl.WebSocketServer;
-import com.example.Util.DecodeJwtUtils;
-import com.example.Util.SnowFlakeUtil;
+import com.example.service.*;
+import com.example.service.impl.WebSocketServer;
+import com.example.utils.DecodeJwtUtils;
+import com.example.utils.SnowFlakeUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 

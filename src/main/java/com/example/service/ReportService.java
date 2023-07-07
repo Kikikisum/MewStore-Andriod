@@ -1,0 +1,24 @@
+package com.example.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.Entity.Report;
+
+import java.util.List;
+import java.util.Map;
+
+public interface ReportService extends IService<Report> {
+    //返回所有举报
+    public List<Report> getAllReport();
+    //通过举报的id查找举报
+    public Report getReportById(Long id);
+    //插入一个举报信息
+    public int InsertReport(Report report);
+    public List<Report> findPageByStatus(Integer pageNo,Integer pageSize,int status);
+
+    public List<Report> findPageByUserId(Integer pageNo,Integer pageSize,Long user_id);
+
+    public Map<String,Object> ReportMap(Report report);
+
+    public List<Report> getByType(int type);
+
+}

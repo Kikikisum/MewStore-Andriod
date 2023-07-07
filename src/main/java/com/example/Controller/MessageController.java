@@ -3,9 +3,8 @@ package com.example.Controller;
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.example.Entity.Message;
-import com.example.Entity.Order;
-import com.example.Service.MessageService;
-import com.example.Util.DecodeJwtUtils;
+import com.example.service.MessageService;
+import com.example.utils.DecodeJwtUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 

@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.example.entity.*;
 import com.example.mapper.ReportMapper;
-import com.example.service.impl.WebSocketServer;
+import com.example.component.WebSocketServer;
 import com.example.service.MessageService;
 import com.example.service.OrderService;
 import com.example.service.ReportService;

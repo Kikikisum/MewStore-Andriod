@@ -1,4 +1,4 @@
-package com.example.service.impl;
+package com.example.component;
 
 import com.example.entity.User;
 import com.example.service.UserService;

@@ -3,7 +3,7 @@ package com.example.controller;
 import com.alibaba.fastjson.JSON;
 import com.example.entity.*;
 import com.example.service.*;
-import com.example.service.impl.WebSocketServer;
+import com.example.component.WebSocketServer;
 import com.example.utils.DecodeJwtUtils;
 import com.example.utils.SnowFlakeUtil;
 import org.springframework.stereotype.Controller;
